@@ -32,3 +32,9 @@ let string = "Hello World"
 let stringConvert = String(string)
 console.log(stringConvert)
 console.log(typeof(stringConvert))
+
+
+let strin = "Hello World" 
+let stringConver = Boolean(strin)
+console.log(stringConver)
+console.log(typeof(stringConver))
