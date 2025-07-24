@@ -6,3 +6,4 @@ accountCity = "Pune"; // This will create a global variable if not declared with
 let accountState;
 console.log(accountID);
 console.table([accountID,accountEmail, accountPassword, accountCity, accountState]);
+console.log(typeof accountID);
