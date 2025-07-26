@@ -27,7 +27,7 @@ const obj2 = {4: "four", 5: "five", 6: "six"};
 //onst obj3 = Object.assign({}, obj1, obj2); // Merging objects
 
 const obj3 = {...obj1, ...obj2}; // Merging objects using spread operator
-console.log(obj3);
+// console.log(obj3);
 
 
 const users = [
@@ -46,10 +46,29 @@ const users = [
 ]
 
 // console.log(users[1].name)
-console.log(user)
+// console.log(user)
 
-console.log(Object.keys(user))
-console.log(Object.values(user))
-console.log(Object.entries(user)) // Returns an array of key-value pairs
+// console.log(Object.keys(user))
+// console.log(Object.values(user))
+// console.log(Object.entries(user)) // Returns an array of key-value pairs
 
-console.log(user.hasOwnProperty("name")) // Checks if the property exists in the object
+// console.log(user.hasOwnProperty("name")) // Checks if the property exists in the object
+
+
+const course = {
+    courseName: "JavaScript",
+    price : "999",
+    courseinstructor: "Prajwal"
+}
+//course.courseinstructor
+const {courseinstructor : instrust} = course; // Destructuring
+// console.log(courseinstructor);
+console.log(instrust);
+
+const {full_name: name} = r_user 
+console.log(name);
+
+
+
+
+
