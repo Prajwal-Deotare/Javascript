@@ -16,29 +16,31 @@
 
 // Map
 
-const samp = new Map()
-samp.set('IN',"India")
-samp.set('USA'," United states of america")
-samp.set('FR', "France")
-samp.set('IN ',"India")
+// const samp = new Map()
+// samp.set('IN',"India")
+// samp.set('USA'," United states of america")
+// samp.set('FR', "France")
+// samp.set('IN ',"India")
 
-console.log(samp);
+// console.log(samp);
 
-for(const key of samp){
-    console.log(key)
-}
+// for(const key of samp){
+//     console.log(key)
+// }
 
-for(const [key, value] of samp){
-    console.log(key , `:- ${value}`)
-}
+// for(const [key, value] of samp){
+//     console.log(key , `:- ${value}`)
+// }
 
 
-const myobject ={
-    "game1" : "NFS",
-    "game2" : "spiderman"
-}
+// const myobject ={
+//     "game1" : "NFS",
+//     "game2" : "spiderman"
+// }
 
-for(const [key, value] of myobject){
-    console.log(key, `:- ${value}`)
+// for(const [key, value] of myobject){
+//     console.log(key, `:- ${value}`)
 
-}
+// }
+
+
